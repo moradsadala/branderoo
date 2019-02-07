@@ -1,0 +1,339 @@
+[23-Jan-2019 13:30:28 UTC] PHP Warning:  Error while sending QUERY packet. PID=486 in /app/public/wp-includes/wp-db.php on line 1924
+[30-Jan-2019 06:59:35 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-admin/includes/translation-install.php on line 65
+[30-Jan-2019 09:27:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function have_post() in /app/public/wp-content/themes/customizedtheme/index.php:15
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/customizedtheme/index.php on line 15
+[30-Jan-2019 09:27:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function have_post() in /app/public/wp-content/themes/customizedtheme/index.php:15
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/customizedtheme/index.php on line 15
+[30-Jan-2019 09:27:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function have_post() in /app/public/wp-content/themes/customizedtheme/index.php:15
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/customizedtheme/index.php on line 15
+[30-Jan-2019 09:51:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function permalink() in /app/public/wp-content/themes/customizedtheme/index.php:17
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/customizedtheme/index.php on line 17
+[30-Jan-2019 12:27:06 UTC] PHP Fatal error:  Cannot redeclare hi() (previously declared in /app/public/wp-content/themes/branderootheme/functions.php:3) in /app/public/wp-content/themes/branderootheme/functions.php on line 10
+[03-Feb-2019 07:16:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_enueue_script() in /app/public/wp-content/themes/branderootheme/functions.php:21
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(286): my_scripts_enqueue('')
+#1 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /app/public/wp-includes/script-loader.php(2231): do_action('wp_enqueue_scri...')
+#4 /app/public/wp-includes/class-wp-hook.php(286): wp_enqueue_scripts('')
+#5 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /app/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /app/public/wp-includes/general-template.php(2614): do_action('wp_head')
+#8 /app/public/wp-content/themes/branderootheme/header.php(4): wp_head()
+#9 /app/public/wp-includes/template.php(688): require_once('/app/public/wp-...')
+#10 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#11 /app/public/wp- in /app/public/wp-content/themes/branderootheme/functions.php on line 21
+[03-Feb-2019 12:27:56 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /app/public/wp-content/themes/branderootheme/functions.php on line 14
+[03-Feb-2019 12:28:28 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /app/public/wp-content/themes/branderootheme/functions.php on line 14
+[05-Feb-2019 07:26:13 UTC] PHP Parse error:  syntax error, unexpected 'add_action' (T_STRING) in /app/public/wp-content/themes/branderootheme/functions.php on line 21
+[05-Feb-2019 07:26:24 UTC] PHP Parse error:  syntax error, unexpected 'add_action' (T_STRING) in /app/public/wp-content/themes/branderootheme/functions.php on line 21
+[05-Feb-2019 07:47:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:48:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:48:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:48:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:48:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:48:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:48:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:48:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:48:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:48:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:48:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:48:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:48:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:48:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:52:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:52:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:53:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:53:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:53:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:53:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:53:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:53:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:53:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:53:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:53:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:53:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:53:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:53:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:53:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:53:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:53:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:53:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:53:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:53:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:53:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:53:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:53:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:53:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:53:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:53:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:53:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:53:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:53:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:54:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:54:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:54:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:54:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:54:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:54:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:54:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:54:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 07:54:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 08:03:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 08:03:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 08:03:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 08:03:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 08:03:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 08:03:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 08:03:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 08:03:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 08:03:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 08:03:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 08:03:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 08:03:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 08:03:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 08:03:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 08:03:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 08:03:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 08:03:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /app/public/wp-content/themes/branderootheme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/index.php on line 1
+[05-Feb-2019 12:51:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WP_Post::post_title() in /app/public/wp-content/themes/branderootheme/page.php:8
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/page.php on line 8
+[05-Feb-2019 12:52:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WP_Post::post_title() in /app/public/wp-content/themes/branderootheme/page.php:8
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/branderootheme/page.php on line 8
